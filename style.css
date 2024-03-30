@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    height:100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column
+}
+
+.content{
+    height: 72vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #FFCD9E;
+}
+.left{
+    height: 100%;
+    width: 55%;
+    padding: 3vw 5vw;
+}
+.left h1{
+    font-size: 2.8vw;
+    line-height: 3.5vw;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    width: 45vw;
+    color: #282828;
+}
+
+.left p {
+    font-size: 1.5vw;
+    margin: 30px 0;
+    font-weight: 500;
+    width: 36vw;
+    color: #484848;
+}
+.msg1 p{
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: #282828; 
+} 
+.msg2 p {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 1.8vw;
+    padding-left: 2vw;
+}
+.left input {
+    font-size: 1.4vw;
+    padding: 0.5vw 1.5vw;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.left input::placeholder {
+    font-size: 1.2vw;
+}
+
+.left button{
+    margin-left: 1vw;
+    font-size: 1.4vw;
+    padding: 0.5vw 1.5vw;
+    background-color: #282828;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right{
+    height:100%;
+    width: 45%;
+    align-items: center;
+    /* background-color: #fff; */
+}
+.right img {
+    height: 70vh;
+    width: 35vw;
+    top: 3vh;
+    margin-left: 6vw;
+    object-fit: cover;
+}
+
+footer {
+    width: 100vw;
+    height: 28vh;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 3vh 10vw;
+}
+
+footer ul {
+    list-style: none;
+}
+footer ul{
+    line-height: 2vw;
+}
+footer .footer-right {
+    text-align: right;
+}
+
+footer .footer-right .right-top i {
+    color: #FFCD9E;
+}
+
+footer .footer-right .right-top{
+    margin-bottom: 4vh;
+}
+
+
+
